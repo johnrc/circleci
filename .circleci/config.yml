@@ -4,6 +4,7 @@ jobs:
   build:
     docker:
       - image: cimg/go:1.25.5
+    resource_class: small
     steps:
       - checkout
       - run:
